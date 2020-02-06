@@ -10598,6 +10598,10 @@ hr.light {
   padding: 8rem 0;
 }
 
+.page-section_portfolio {
+  padding-top: 3rem;
+}
+
 #mainNav {
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
