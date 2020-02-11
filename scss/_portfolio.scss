@@ -33,10 +33,20 @@
         .project-name {
           font-size: 1.2rem;
         }
+        .portfolio-box-p{
+          text-align: left;
+          margin-left: 10px;
+        }
+        .portfolio-list-item {
+          text-align: left;
+        }
       }
       &:hover {
         .portfolio-box-caption {
           opacity: 1;
+          text-align: left;
+          margin: 10px,10px,10px,10px;
+          padding: 30px;
         }
       }
     }

@@ -4,10 +4,11 @@ header.masthead {
   padding-bottom: calc(10rem - #{$navbar-height});
   // replace the masthead.jpg image in the /img directory to change the image
   // if the image name change, make sure to update the url path below!
-  background: url('../img/Header-bg-pattern.jpg');
-  background-size: fill;
-  background-repeat: repeat;
+  background: url('../img/portfolio/fullsize/desk.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: scroll;
+  background-position: center;
   
   h1 {
     font-size: 2.25rem;
