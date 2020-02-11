@@ -10678,10 +10678,11 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: url("../img/Header-bg-pattern.jpg");
-  background-size: fill;
-  background-repeat: repeat;
+  background: url("../img/portfolio/fullsize/desk.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: scroll;
+  background-position: center;
 }
 
 header.masthead h1 {
@@ -10756,6 +10757,18 @@ header.masthead h1 {
   font-size: 1.2rem;
 }
 
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .portfolio-box-p {
+  text-align: left;
+  margin-left: 10px;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .portfolio-list-item {
+  text-align: left;
+}
+
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+  text-align: left;
+  margin: 10px,10px,10px,10px;
+  padding: 30px;
 }
