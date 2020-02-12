@@ -1,7 +1,7 @@
 // Base styling for the navbar
 #mainNav {
   box-shadow: $box-shadow;
-  background-color: #174be788;
+  background-color: #174be7;
   transition: background-color 0.2s ease;
   .navbar-brand {
     font-family: $font-family-sans-serif;
@@ -31,7 +31,7 @@
   @include media-breakpoint-up(lg) {
     // Base styling for the navbar - screen sizes greater than the large breakpoint
     box-shadow: none;
-    background-color: transparent;
+    background-color: rgba(7,8,17,.5) ;
     .navbar-brand {
       color: fade-out($white, .3);
       &:hover {

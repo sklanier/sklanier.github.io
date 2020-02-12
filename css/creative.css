@@ -31,7 +31,7 @@
   --warning: #ffc107;
   --danger: #dc3545;
   --light: #f8f9fa;
-  --dark: #08194e;
+  --dark: #070811;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -1881,23 +1881,23 @@ pre code {
 .table-dark,
 .table-dark > th,
 .table-dark > td {
-  background-color: #babfcd;
+  background-color: #bababc;
 }
 
 .table-dark th,
 .table-dark td,
 .table-dark thead th,
 .table-dark tbody + tbody {
-  border-color: #7f87a3;
+  border-color: #7e7f83;
 }
 
 .table-hover .table-dark:hover {
-  background-color: #abb1c2;
+  background-color: #adadaf;
 }
 
 .table-hover .table-dark:hover > td,
 .table-hover .table-dark:hover > th {
-  background-color: #abb1c2;
+  background-color: #adadaf;
 }
 
 .table-active,
@@ -2867,38 +2867,38 @@ fieldset:disabled a.btn {
 
 .btn-dark {
   color: #fff;
-  background-color: #08194e;
-  border-color: #08194e;
+  background-color: #070811;
+  border-color: #070811;
 }
 
 .btn-dark:hover {
   color: #fff;
-  background-color: #040e2b;
-  border-color: #030a20;
+  background-color: black;
+  border-color: black;
 }
 
 .btn-dark:focus, .btn-dark.focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(45, 60, 105, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(45, 60, 105, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(44, 45, 53, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(44, 45, 53, 0.5);
 }
 
 .btn-dark.disabled, .btn-dark:disabled {
   color: #fff;
-  background-color: #08194e;
-  border-color: #08194e;
+  background-color: #070811;
+  border-color: #070811;
 }
 
 .btn-dark:not(:disabled):not(.disabled):active, .btn-dark:not(:disabled):not(.disabled).active,
 .show > .btn-dark.dropdown-toggle {
   color: #fff;
-  background-color: #030a20;
-  border-color: #020614;
+  background-color: black;
+  border-color: black;
 }
 
 .btn-dark:not(:disabled):not(.disabled):active:focus, .btn-dark:not(:disabled):not(.disabled).active:focus,
 .show > .btn-dark.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(45, 60, 105, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(45, 60, 105, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(44, 45, 53, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(44, 45, 53, 0.5);
 }
 
 .btn-outline-primary {
@@ -3140,37 +3140,37 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-dark {
-  color: #08194e;
-  border-color: #08194e;
+  color: #070811;
+  border-color: #070811;
 }
 
 .btn-outline-dark:hover {
   color: #fff;
-  background-color: #08194e;
-  border-color: #08194e;
+  background-color: #070811;
+  border-color: #070811;
 }
 
 .btn-outline-dark:focus, .btn-outline-dark.focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(8, 25, 78, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(8, 25, 78, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(7, 8, 17, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(7, 8, 17, 0.5);
 }
 
 .btn-outline-dark.disabled, .btn-outline-dark:disabled {
-  color: #08194e;
+  color: #070811;
   background-color: transparent;
 }
 
 .btn-outline-dark:not(:disabled):not(.disabled):active, .btn-outline-dark:not(:disabled):not(.disabled).active,
 .show > .btn-outline-dark.dropdown-toggle {
   color: #fff;
-  background-color: #08194e;
-  border-color: #08194e;
+  background-color: #070811;
+  border-color: #070811;
 }
 
 .btn-outline-dark:not(:disabled):not(.disabled):active:focus, .btn-outline-dark:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-dark.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(8, 25, 78, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(8, 25, 78, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(7, 8, 17, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(7, 8, 17, 0.5);
 }
 
 .btn-link {
@@ -5417,18 +5417,18 @@ a.badge-light:focus, a.badge-light.focus {
 
 .badge-dark {
   color: #fff;
-  background-color: #08194e;
+  background-color: #070811;
 }
 
 a.badge-dark:hover, a.badge-dark:focus {
   color: #fff;
-  background-color: #030a20;
+  background-color: black;
 }
 
 a.badge-dark:focus, a.badge-dark.focus {
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(8, 25, 78, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(8, 25, 78, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(7, 8, 17, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(7, 8, 17, 0.5);
 }
 
 .jumbotron {
@@ -5577,13 +5577,13 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .alert-dark {
-  color: #040d29;
-  background-color: #ced1dc;
-  border-color: #babfcd;
+  color: #040409;
+  background-color: #cdcecf;
+  border-color: #bababc;
 }
 
 .alert-dark hr {
-  border-top-color: #abb1c2;
+  border-top-color: #adadaf;
 }
 
 .alert-dark .alert-link {
@@ -5993,19 +5993,19 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .list-group-item-dark {
-  color: #040d29;
-  background-color: #babfcd;
+  color: #040409;
+  background-color: #bababc;
 }
 
 .list-group-item-dark.list-group-item-action:hover, .list-group-item-dark.list-group-item-action:focus {
-  color: #040d29;
-  background-color: #abb1c2;
+  color: #040409;
+  background-color: #adadaf;
 }
 
 .list-group-item-dark.list-group-item-action.active {
   color: #fff;
-  background-color: #040d29;
-  border-color: #040d29;
+  background-color: #040409;
+  border-color: #040409;
 }
 
 .close {
@@ -6986,13 +6986,13 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #08194e !important;
+  background-color: #070811 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
-  background-color: #030a20 !important;
+  background-color: black !important;
 }
 
 .bg-white {
@@ -7072,7 +7072,7 @@ button.bg-dark:focus {
 }
 
 .border-dark {
-  border-color: #08194e !important;
+  border-color: #070811 !important;
 }
 
 .border-white {
@@ -10429,11 +10429,11 @@ a.text-light:hover, a.text-light:focus {
 }
 
 .text-dark {
-  color: #08194e !important;
+  color: #070811 !important;
 }
 
 a.text-dark:hover, a.text-dark:focus {
-  color: #010309 !important;
+  color: black !important;
 }
 
 .text-body {
@@ -10571,6 +10571,25 @@ html {
   color: rgba(255, 255, 255, 0.75);
 }
 
+p {
+  font-size: .8rem !important;
+}
+
+body {
+  font-size: .8rem !important;
+}
+
+h3 {
+  font-size: 1.5rem !important;
+}
+
+h4 {
+  font-size: .65rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
@@ -10583,11 +10602,12 @@ hr.light {
 
 .btn {
   font-family: "AvenirNext", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  letter-spacing: 2px;
 }
 
 .btn-xl {
   padding: 1.25rem 2.25rem;
-  font-size: 0.85rem;
+  font-size: 0.65rem;
   font-weight: 700;
   text-transform: uppercase;
   border: none;
@@ -10602,10 +10622,22 @@ hr.light {
   padding-top: 3rem;
 }
 
+.bg-pattern {
+  background-image: url("../img/Header-bg-pattern.jpg") !important;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: center;
+}
+
+.py-5 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
 #mainNav {
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background-color: #174be788;
+  background-color: #174be7;
   -webkit-transition: background-color 0.2s ease;
   transition: background-color 0.2s ease;
 }
@@ -10638,7 +10670,7 @@ hr.light {
   #mainNav {
     -webkit-box-shadow: none;
     box-shadow: none;
-    background-color: transparent;
+    background-color: rgba(7, 8, 17, 0.5);
   }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
@@ -10678,7 +10710,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: url("../img/portfolio/fullsize/desk.jpg");
+  background: url("../img/Steves-Desk.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10723,12 +10755,12 @@ header.masthead h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -webkit-box-align: left;
+  -ms-flex-align: left;
+  align-items: left;
+  -webkit-box-pack: left;
+  -ms-flex-pack: left;
+  justify-content: left;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -10754,7 +10786,9 @@ header.masthead h1 {
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name {
-  font-size: 1.2rem;
+  font-family: "AvenirNext", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .portfolio-box-p {
