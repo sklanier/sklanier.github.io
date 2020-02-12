@@ -44,6 +44,16 @@ hr.light {
   border-color: $white;
 }
 
+// Skill Tags
+.label {
+  color: white;
+  padding: 8px;
+  line-height: 38px;
+}
+
+.in-demand {background-color: $lightblue;}
+.niche {background-color: $darkblue;}
+
 // Button restyling
 .btn {
   font-family: $font-family-sans-serif;
@@ -61,7 +71,7 @@ hr.light {
 
 // Page section padding
 .page-section {
-  padding: 8rem 0;
+  padding: 6rem 0;
 }
 
 .page-section_portfolio {
