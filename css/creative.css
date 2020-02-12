@@ -10579,6 +10579,10 @@ body {
   font-size: .8rem !important;
 }
 
+h1 {
+  font-size: 5rem !important;
+}
+
 h3 {
   font-size: 1.5rem !important;
 }
@@ -10649,7 +10653,7 @@ hr.light {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: #6c757d;
+  color: #fff;
   font-family: "AvenirNext", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   font-size: 0.7rem;
@@ -10670,20 +10674,20 @@ hr.light {
   #mainNav {
     -webkit-box-shadow: none;
     box-shadow: none;
-    background-color: rgba(7, 8, 17, 0.5);
+    background-color: transparent;
   }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
   }
   #mainNav .navbar-brand:hover {
-    color: #fff;
+    color: #174AE7;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.9);
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fff;
+    color: #174AE7;
   }
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
