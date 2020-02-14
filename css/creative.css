@@ -10760,10 +10760,6 @@ header.masthead h1 {
   }
 }
 
-#portfolio .container-fluid {
-  max-width: 1920px;
-}
-
 #portfolio .container-fluid .portfolio-box {
   position: relative;
   display: block;
@@ -10773,12 +10769,12 @@ header.masthead h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: left;
-  -ms-flex-align: left;
-  align-items: left;
-  -webkit-box-pack: left;
-  -ms-flex-pack: left;
-  justify-content: left;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -10825,10 +10821,6 @@ header.masthead h1 {
   padding: 30px;
 }
 
-#skills .skills-container-fluid {
-  max-width: 1920px;
-}
-
 #skills .skills-container-fluid .skills-box {
   position: relative;
   display: block;
@@ -10839,9 +10831,9 @@ header.masthead h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: left;
-  -ms-flex-align: left;
-  align-items: left;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: left;
   -ms-flex-pack: left;
   justify-content: left;

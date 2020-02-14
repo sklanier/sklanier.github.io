@@ -1,14 +1,14 @@
 // Styling for the portfolio section
 #portfolio {
   .container-fluid {
-    max-width: 1920px;
+   
     .portfolio-box {
       position: relative;
       display: block;
       .portfolio-box-caption {
         display: flex;
-        align-items: left;
-        justify-content: left;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
 
         width: 100%;
