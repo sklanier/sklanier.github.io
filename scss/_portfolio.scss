@@ -36,17 +36,16 @@
           font-weight: 600;
         }
         .portfolio-box-p{
-          text-align: left;
-          margin-left: 10px;
+          text-align: center;
         }
         .portfolio-list-item {
-          text-align: left;
+          text-align: center;
         }
       }
       &:hover {
         .portfolio-box-caption {
           opacity: 1;
-          text-align: left;
+          text-align: center;
           margin: 10px,10px,10px,10px;
           padding: 30px;
         }
