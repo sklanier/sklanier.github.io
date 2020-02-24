@@ -10561,7 +10561,12 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-body,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
 html {
   width: 100%;
   height: 100%;
@@ -10729,9 +10734,9 @@ header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
   background: url("../img/Steves-Desk.jpg");
+  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: scroll;
   background-position: center;
 }
 
