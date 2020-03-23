@@ -601,6 +601,8 @@ pre code {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 .no-gutters {
@@ -10883,4 +10885,8 @@ header.masthead h1 {
   text-align: left;
   margin: 10px,10px,10px,10px;
   padding: 30px;
+}
+
+#skills .svg-curve {
+  display: block;
 }
