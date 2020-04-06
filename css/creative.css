@@ -10626,6 +10626,7 @@ hr.light {
 .btn {
   font-family: "AvenirNext", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   letter-spacing: 2px;
+  margin: 5px;
 }
 
 .btn-xl {
